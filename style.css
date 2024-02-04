@@ -1,0 +1,133 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section {
+  margin: 20px;
+  text-align: center;
+  flex: 1; /* 幅を均等にする */
+}
+
+img {
+  width: 100%; /* 親要素の幅に合わせる */
+  height: auto; /* アスペクト比を維持する */
+  max-width: 300px; /* 最大幅を指定 */
+  max-height: 300px; /* 最大高さを指定 */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about-section {
+  text-align: left;
+  flex-basis: 100%; /* 100%の幅を持つ */
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-section h2 {
+  text-align: center;
+}
+
+.about-section img {
+  margin-left: 5rem;
+}
+
+
+
+.text-content {
+  margin-left: 20px; /* 画像とテキストの間隔を調整 */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* 親コンテナの高さいっぱいにテキストを配置 */
+}
+
+.about-section img {
+  order: -1; /* 画像を左に寄せる */
+}
+
+.contact-section {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
